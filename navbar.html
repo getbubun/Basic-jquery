@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="navbar">
+   	<div class="container">
+      <div class="logo">
+         <h2>Navbar</h2>
+      </div>
+      <div class="toggle">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+        <div class="navigation" id="navlink">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+           <div class="dropdown">
+			<a href="#" class="dropbtn">Settings</a>
+			    <i class="fa fa-caret-down"></i>
+			    <div class="dropdown-content">
+			      <a href="#">Account</a>
+			      <a href="#">Privacy</a>
+			      <a href="#">Payment</a>
+			    </div>
+			</div> 
+           <a href="#" class="disabled">Contact</a>
+        </div>
+    </div>
+    </div>
+
+<script src="js/navbar.js"> </script>
+</body>
+</html>

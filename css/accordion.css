@@ -1,0 +1,49 @@
+.root
+{
+    font-size:20px;
+}
+
+body
+{
+    background-color:#39393A;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+
+.accordion {
+    background-color: #EDBF28;
+    color: #39393A;
+    cursor: pointer;
+    padding: 0.5%;
+    width: 80%;
+    margin:10%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size:1rem;
+    border-radius: 10px;
+    
+}
+
+.accord-header {
+    padding: 1%;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    
+}
+
+.accord-content {
+    display: none;
+    text-align:justify;
+    padding: 1rem;
+}
+
+
+
+.accord-header:hover
+{
+    background-color: #BAB6B6;
+}
